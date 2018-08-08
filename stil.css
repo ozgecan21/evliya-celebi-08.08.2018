@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"><!-- yorum satırıTR karekter sorununu çözer meta yazıp tab basılacak-->
+	<title>özge can </title  > 
+	<link rel="stylesheet" type="text/css" href="stil.css">
+</head>
+<body>
+	özge Can
+	<br> <!-- alt satıra geçme kodu br yazıp tab basılacak-->
+	<br>
+	<b>DÜNYA SANA GÜZEL:D</b> <br>
+	<b><i>aksaray eğitimde kod adı 2023 eğitimden denemeler</i></b> <!-- i yazıp tab basılınca italik yazı yazma özelliği kazanılıyor--><!-- b önüne gelirse kalınlık verir italiğe-->
+<br>
+<u>bitanem</u><!-- u yazıp taba basınca içine yazılanlar altı çizili olur-->
+<br>
+<s>25325</s>TL<!-- s yazıp taba ortası çizik yapılır-->
+<br>
+<h1> EN BÜYÜK BAŞLIK</h1> <!-- H1 yazıp taba EN BÜYÜK YAZI-->
+<h2>biraz ufak</h2>
+<h3>daha ufak</h3>
+<h4>biraz daha ufak</h4>
+<h5>daha ufak</h5>
+<h6>en ufak</h6><!--h1 / H6 arası yazıp tabasınca en küçük başlık kodu-->
+
+
+
+&emsp;<!-- hafif paragraf verir-->	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore      &nbsp;&nbsp;&nbsp;&nbsp;<!-- boşluk kodu--> magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. 
+
+<p class="ortalama">&emsp;ÖZGE CAN DİYARBAKIRDAN GELİP KODLAMA EĞİTİMİ ALDI NE KADAR GÜZEL BİR HAYAT:=)</p><!-- paragraf başı p tab-->
+
+<abbr title ="TÜRK DİL KURUMU">TDK</abbr><!-- DİL KODU-->	
+<br>
+4<sub>2</sub>
+<br>
+<abbr title="5üssü 2">5<sup>3</sup></abbr>
+<br>
+<img width="150" height="120" src="20180703_141917.jpg"><!-- height yüksekliği azaltır veya uzatır width fotoğraf gelişlik  azaltma img yazıp foto linkini atılacak tarayıcıda resm cıkacak-->	
+<hr><!-- bölüm oluşturma-->	
+<a href="C:\Users\ASUS\Desktop\GÜNCELLEME"></a><!-- yönlendirme linki oluşturma a yazıp tab basılacak-->	
+<a target="_blank" href="20180703_141917.jpg"><img width="150" height="120" src="20180703_141917.jpg"></a><!-- yönlendirme linki oluşturma a yazıp tab basılacak site yazıldıktan sonra isim verilecek-->	
+
+<br>
+	<br>
+	<br>
+	<span style="font-family: Arial;font-size: 20px; color: red"><b>EĞİTİMLERİMİZE HOŞGELDİNİZ</b></span><!-- yazı boyunutu değiştirme style font vs :D-->	
+<br>
+	<ul type="square">
+		<li>Gençlik</li><!-- ul yaz tab bas :D gerisini ona bırak maddeleme :D-->	
+		<li>Spor</li>
+		<li>BAkanlığı</li>
+	</ul>
+
+<br>
+<br>
+<ol type="1"> 
+	<li>Gençlik</li>				<!-- 1- sonsuza kadar sayı verir ol 	type="square" yqazarsak kare :D-->		
+	<li>Spor</li>					<!-- type yazıp a yazarsak alfabetik sıra yapar-->
+	<li>BAkanlığı</li>
+</ol>
+
+<br> <!-- tablo kodları başlangısı-->
+<table border="5" width="500"> 	<!-- width tablo uzatma kısa yolu -->
+	
+	<tr>
+		<th>SIRA NO:</th>
+		<th>STOK ADI:</th>
+		<th>STOK ADEDİ:</th>
+	</tr>
+	<tr>
+		<td style="text-align: center;">1</td><!-- style="text-align: center; 1 i ortalama link -->
+		<td>elma</td>
+		<td>1300 kasa</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>şeftali</td>
+		<td>500 kasa</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>armut</td>
+		<td>700 kasa</td>
+	</tr>
+</table>
+
+ <!-- tablo kodları bitişi-->
+<hr>
+<!-- form başlangıcı-->
+
+<form method="Post" action="islem.php" >	<!-- method="Post" action="islem.php" eklendiğinde php verileri gönderir-->
+	<label for="ad">ADINIZ SOYADI</label><!-- for="ad" ad soyan yazan yeri tıkladığınızda dahi kutucuğa girmeye yarar-->
+	<br>
+<input type="text" id="ad" name="adsoyad" required="" placeholder="Adınızı Giriniz"> 	<!-- id="ad" ad soyada tıklandığı zaman boşluğa isim girmeye yarar--><!-- zorunluluk eklemename="adsoyad" yanına required=" eklenmesi lazım-->
+<br><br>
+<label>Şifreniz</label>
+<br>
+<input type="password" name="sifre" placeholder="Şifrenizi Giriniz"><!-- placeholder kutucuğun şinde şifreyi giriniz imagesini yazmak için geçerli--><!-- password şifre gizme-->
+
+<br><br>
+
+<label> E- Postanız</label>
+<br>
+<input type="email" name="E-Posta" placeholder="E-Posta giriniz">
+<br>
+<br>
+<label>Doğum Tarihiniz</label>
+<br>
+<input type="date" name=""dtarih>
+<br><br>
+<label>Kişisel Bilgileriniz</label>
+<br>
+<textarea name="bio" placeholder="Hakkınızda" ></textarea>
+
+<br><br>
+<input type="submit" name="uyeformunugonder" value="Kaydı Gönder" 	>
+
+</form>
+
+
+<!-- form bitişi-->
+
+<!-- div başlangıç-->
+<hr>
+<div style="border:dotted 4px blue; float: left; "> 
+	<div class="blok1"> 1. Blok</div><!-- div blok demek style renk verme-->
+	<div style="border: dashed 3px green;width: 250px;float: left; margin: 10px">2.Blok</div>
+	<div style="left: "></div>
+
+</div>
+<br>
+<br>
+<br>
+
+	<!-- div sonu-->
+<hr>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+<hr><!-- hr form bitiş işareti bırakma-->
+<ol type="1"> 
+
+<button><a href="C:\Users\ASUS\Desktop\cıkarılacak" target="_blank" >DOSYA</button></a><!-- buton acma yeni sekmede :D-->
+
+<table><button><a href="C:\Users\ASUS\Desktop\cıkarılacak" target="_blank" >DOSYA</button></a></table>	
+<table><table><button><a href="C:\Users\ASUS\Desktop\cıkarılacak" target="_blank" >DOSYA</button></a></table>	</table>
+</ol>
+</body>
+</html>
+<hr>
